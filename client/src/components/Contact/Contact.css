@@ -1,0 +1,59 @@
+.hands {
+  width: 100vw;
+  margin-bottom: -5px;
+}
+.hamburguer-menu-black {
+  width: 40px;
+}
+.hamburguer-menu-white {
+  display: none;
+}
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./contact.jpg');
+}
+@media only screen and (min-width: 600px) {
+  .hands {
+    display: none;
+  }
+  .asses-free {
+    width: 40vw;
+  }
+  .group {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    height: 44vh;
+    align-items: center;
+  }
+  .asses {
+    align-items: center;
+  }
+  #group {
+    flex-direction: column-reverse;
+    width: 50vw;
+    height: 95vh;
+    justify-content: center;
+    display: none;
+  }
+  .contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url('./contact.jpg');
+    height: 100vh;
+  }
+  .hamburguer-menu-black {
+    display: none;
+  }
+  .hamburguer-menu-white {
+    display: inline-block;
+    width: 40px;
+  }
+  #form {
+    right: 23vw;
+  }
+  #footer {
+    position: absolute;
+    bottom: 0;
+  }
+}

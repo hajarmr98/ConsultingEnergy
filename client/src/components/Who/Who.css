@@ -1,0 +1,50 @@
+.who-father {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./wcpr.jpg');
+  background-color: transparent;
+}
+.ham {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2px;
+  width: 95vw;
+  padding: 15px 0px 15px 9px;
+  justify-content: space-between;
+}
+.who {
+  margin-bottom: -2px;
+  background-color: transparent;
+  color: #fff;
+}
+.who-text {
+  font-size: 19px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 600px) {
+  .who-text {
+    width: 60vw;
+  }
+  .who {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url('./wcpr.jpg'); */
+    background-color: transparent;
+    color: #fff;
+  }
+  .who-father {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url('./wcpr.jpg');
+    background-color: transparent;
+    height: 100vh;
+  }
+  .who-text-who {
+    width: 40vw;
+  }
+  #tio {
+    display: none;
+  }
+}

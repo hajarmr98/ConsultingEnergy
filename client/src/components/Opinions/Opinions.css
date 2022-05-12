@@ -1,0 +1,48 @@
+.black-line {
+  height: 70px;
+  width: 100vw;
+}
+.opinions-carrousel {
+  height: 50vh;
+  width: 100vw;
+  background-color: #000;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  padding-bottom: 50px;
+}
+.arrow {
+  height: 30px;
+  margin: 10px;
+}
+.empresa {
+  width: 30%;
+  height: 30%;
+}
+.opinion {
+  display: flex;
+  width: 80vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.opinion-text {
+  text-align: left;
+  width: 60%;
+}
+.opinion-text p:nth-child(3) {
+  font-weight: bolder;
+  font-style: italic;
+}
+@media only screen and (min-width: 600px) {
+  .arrow {
+    height: 55px;
+  }
+  .opinions-carrousel {
+    font-size: 20px;
+  }
+}

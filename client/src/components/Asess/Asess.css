@@ -1,0 +1,13 @@
+.asses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -15px;
+  color: white;
+}
+#white {
+  color: white;
+}
+@media only screen and (min-width: 600px) {
+}

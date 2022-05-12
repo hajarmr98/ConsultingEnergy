@@ -1,0 +1,115 @@
+.form {
+  background-color: #cdb787;
+  display: flex;
+  justify-content: center;
+}
+.form-title {
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.app-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 81vw;
+  min-height: 90vh;
+}
+.form-button {
+  border: none;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: #fbfbfb;
+  width: 30vw;
+  height: 45px;
+  font-size: 17px;
+}
+.form-button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 80vw;
+  margin-bottom: 10px;
+  height: 45px;
+  border: none;
+  border-radius: 3px;
+  font-size: large;
+  padding-left: 20px;
+}
+textarea {
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+textarea:focus {
+  border: solid 1px #39ff14;
+}
+input:focus {
+  outline: none;
+  border: solid 1px #39ff14;
+}
+#message {
+  height: 120px;
+  width: 80vw;
+  padding: 10px;
+}
+.form-factura {
+  height: 60px;
+}
+.form-factura-img {
+  height: 60px;
+  width: 55px;
+}
+.form-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
+}
+.form-factura-text {
+  width: 20vw;
+  font-size: 15px;
+}
+@media only screen and (min-width: 600px) {
+  .form {
+    background-color: rgba(205, 183, 135, 0.7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 124px;
+    height: 80vh;
+    width: 46vw;
+    right: 2vw;
+  }
+  .app-form {
+    width: 37vw;
+  }
+  input {
+    width: 36vw;
+  }
+  #message {
+    width: 36vw;
+    margin-bottom: 65px;
+  }
+  .form-button {
+    width: 15vw;
+  }
+  textarea:focus {
+    border: solid 1px #39ff14;
+  }
+  .app-form {
+    min-height: 0vh;
+  }
+}

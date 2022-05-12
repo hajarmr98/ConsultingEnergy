@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 97vw;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+}
+.logo {
+  width: 143px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hamburguer-menu {
+  width: 45px;
+}
+.fav {
+  width: 45px;
+}
+.fav-text {
+  margin-left: 2px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+}
+#fav-text-black {
+  color: black;
+  color: #fff;
+}
+@media only screen and (min-width: 600px) {
+  .header {
+    top: 7%;
+  }
+  #fav-text-black {
+    color: #fff;
+  }
+}

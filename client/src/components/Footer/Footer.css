@@ -1,0 +1,31 @@
+.Footer {
+  background-color: black;
+  color: white;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  position: absolute;
+  bottom: -17;
+  width: 100vw;
+  overflow: hidden;
+}
+.footer-text {
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer-text {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+  }
+}
